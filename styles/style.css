@@ -38,6 +38,11 @@ body {
   height: 50%;
   width: 30%;
 }
+.giraffe {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+}
 .tree {
   height: 100%;
   width: 50%;
@@ -45,10 +50,10 @@ body {
   top: 0%;
   left: 10%;
 }
-.palm-leaves{
-  position:absolute;
-  top:0%;
-  left:60%;
+.palm-leaves {
+  position: absolute;
+  top: 0%;
+  left: 60%;
 }
 /* .main-container:hover .tree {
   position: relative;
