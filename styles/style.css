@@ -51,7 +51,36 @@ body {
 .palm-leaves {
   position: absolute;
   top: 0%;
-  left: 60%;
+  left: 70%;
+  animation-name: palm-leaves-moving;
+  animation-duration: 10s;
+  animation-delay: 2s;
+}
+@keyframes palm-leaves-moving {
+  0% {
+    top: 0%;
+    left: 70%;
+  }
+  20% {
+    top: -5%;
+    left: 60%;
+  }
+  40% {
+    top: 0%;
+    left: 65%;
+  }
+  60% {
+    top: 0%;
+    left: 75%;
+  }
+  80% {
+    top: -10%;
+    left: 68%;
+  }
+  100% {
+    top: -15%;
+    left: 80%;
+  }
 }
 .elephant {
   position: absolute;
@@ -111,18 +140,23 @@ body {
 }
 .koala {
   position: absolute;
+  top: -13%;
+  left: -10%;
   height: 40%;
   width: 50%;
   animation-name: koala-disappear;
   animation-duration: 3s;
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 @keyframes koala-disappear {
-  from {
-    top: 0;
+  0% {
+    top: -10%;
   }
-  to {
-    top: -20%;
+  50% {
+    top: 5%;
+  }
+  100% {
+    top: -30%;
   }
 }
 .snake {
